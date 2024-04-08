@@ -1,0 +1,61 @@
+{
+  "cells": [
+    {
+      "type": "app.RectangularShape",
+      "attrs": {
+        "body": {
+          "fill": "#4E79A7",
+          "stroke": "#333333",
+          "strokeWidth": 2
+        },
+        "label": {
+          "text": "Human Insight Gathering",
+          "fill": "#ffffff",
+          "fontSize": 14,
+          "fontWeight": "Bold"
+        }
+      },
+      "size": { "width": 100, "height": 30 },
+      "position": { "x": 100, "y": 50 }
+    },
+    {
+      "type": "app.RectangularShape",
+      "attrs": {
+        "body": {
+          "fill": "#F28E2B",
+          "stroke": "#333333",
+          "strokeWidth": 2
+        },
+        "label": {
+          "text": "Data Collection and Processing",
+          "fill": "#ffffff",
+          "fontSize": 14,
+          "fontWeight": "Bold"
+        }
+      },
+      "size": { "width": 100, "height": 30 },
+      "position": { "x": 100, "y": 100 }
+    },
+    // ... Add other layers here with appropriate positions and colors ...
+    {
+      "type": "path",
+      "attrs": {
+        "line": {
+          "stroke": "#333333",
+          "strokeWidth": 2,
+          "sourceMarker": {
+            "type": "arrow",
+            "fill": "#333333"
+          },
+          "targetMarker": {
+            "type": "arrow",
+            "fill": "#333333"
+          }
+        }
+      },
+      "source": { "x": 150, "y": 65 },
+      "target": { "x": 150, "y": 115 }
+    }
+    // ... Add paths connecting other layers ...
+  ]
+}
